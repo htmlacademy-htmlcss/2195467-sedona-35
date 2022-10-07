@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans" sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #83B3D3;
+}
+
+
+/* Pages */
+
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.hero {
+background-image: url("../images/index-background.jpg");
+background-size: 100% auto;
+}
+
+.features-item-blue-leftpic {
+  text-align: center;
+}
+
+.features-item-blue-rightpic {
+  text-align: center;
+}
+
+.features-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.features-description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.features-list {
+  text-align: center;
+  list-style-type: none;
+}
+
+.features-title-black {
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 24px;
+  color: #000000;
+}
+
+.features-description-black {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color:#333333;
+}
+
+.advantages-list {
+  text-align: center;
+  list-style-type: none;
+
+}
+
+.search-hotels {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.search-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000000;
+  text-align: center;
+}
+
+.search-description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.subscribe-description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.subscribe-form {
+  background-image: url("../images/background-subscribe.jpg");
+  text-align: center;
+  background-size: 100% auto;
+}
+
+.footer-contacts-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.page-footer {
+  background-color: #FFFFFF;
+  color: #000000;
+  text-decoration: none;
+}
+
+.page-footer a {
+  color: #000000;
+  text-decoration: none;
+}
