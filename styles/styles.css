@@ -2,28 +2,26 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: "PT Sans";
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
-  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
 body {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  background-color: #83B3D3;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
-
-/* Pages */
 
 .page-header {
   color: #000000;
@@ -39,9 +37,28 @@ body {
   text-decoration: none;
 }
 
+.welcome {
+  width: auto;
+  height: 485px;
+background-image: url(../images/graphic/divider.svg), url(../images/graphic/welcome.svg), url("../images/index-background.jpg");
+background-repeat: no-repeat;
+background-position: bottom, center, center;
+background-size: 100% auto, 458px auto, 100% auto;
+background-color: #ccc;
+}
+
+
 .hero {
-background-image: url("../images/index-background.jpg");
-background-size: 100% auto;
+background-color: #FFFFFF;
+}
+
+
+.hero-title {
+  text-transform: uppercase;
+}
+
+.features {
+  background-color: #ccc;
 }
 
 .features-item-blue-leftpic {
@@ -79,6 +96,7 @@ background-size: 100% auto;
   line-height: 28px;
   font-size: 24px;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .features-description-black {
@@ -91,8 +109,22 @@ background-size: 100% auto;
 .advantages-list {
   text-align: center;
   list-style-type: none;
+}
+
+.advantages-title-black {
+  text-transform: uppercase;
 
 }
+
+/* .advantages-title-black::before {
+  content: '';
+  position: absolute;
+left: -20px;
+  height: 72px;
+  width: 72px;
+  background-color: red;
+  background-image: url(../images/graphic/house.svg);
+} */
 
 .search-hotels {
   background-color: #FFFFFF;
@@ -105,6 +137,7 @@ background-size: 100% auto;
   line-height: 36px;
   color: #000000;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .search-description {
@@ -121,6 +154,7 @@ background-size: 100% auto;
   line-height: 36px;
   color: #FFFFFF;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .subscribe-description {
@@ -131,10 +165,15 @@ background-size: 100% auto;
   text-align: center;
 }
 
-.subscribe-form {
+.subscribe {
   background-image: url("../images/background-subscribe.jpg");
-  text-align: center;
+  background-color: #ccc;
+  background-position: center;
   background-size: 100% auto;
+}
+
+.subscribe-form {
+  text-align: center;
 }
 
 .footer-contacts-phone {
@@ -147,6 +186,7 @@ background-size: 100% auto;
   text-decoration: none;
 }
 
+
 .page-footer {
   background-color: #FFFFFF;
   color: #000000;
@@ -156,4 +196,18 @@ background-size: 100% auto;
 .page-footer a {
   color: #000000;
   text-decoration: none;
+}
+
+.button {
+padding: 8px 34px;
+background-color: #756157;
+color: #FFF;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+border: none;
+border-radius: 4px;
+cursor: pointer;
 }
