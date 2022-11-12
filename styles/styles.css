@@ -1352,6 +1352,7 @@ color: rgba(255, 255, 255, 0.6);
 .sorting {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   width: 1060px;
   min-height: 49px;
   background-color: #ffffff;
@@ -1366,15 +1367,18 @@ color: rgba(255, 255, 255, 0.6);
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  width: auto;
+  max-width: 400px;
 }
 
 .select-control {
   display: flex;
   flex-wrap: wrap;
   margin-right: 70px;
-  width: 292px;
-  height: 49px;
-  padding: 13px 18px;
+  width: auto;
+    max-width: 292px;
+
+    padding: 12px 105px 12px 20px;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   font-size: 18px;
@@ -1403,7 +1407,8 @@ color: rgba(255, 255, 255, 0.6);
 .view {
   display: flex;
   flex-wrap: wrap;
-  min-width: 160px;
+  width: auto;
+  max-width: 160px;
 }
 
 .view-cards {
@@ -1434,6 +1439,7 @@ color: rgba(255, 255, 255, 0.6);
   border: 2px solid #e5e5e5;
   background-color: #ffffff;
   margin-right: 8px;
+  margin-bottom: 1px;
   border-radius: 4px;
 }
 
@@ -1452,7 +1458,7 @@ color: rgba(255, 255, 255, 0.6);
   border: 2px solid #68a2ca;
 }
 
-.button-card:last-child {
+.button-card:nth-child(3n) {
   margin-right: 0;
 }
 
