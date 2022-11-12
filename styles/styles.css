@@ -492,7 +492,7 @@ body {
 }
 
 .subscribe {
-  background-image: url("../images/subscribe.jpg");
+  background-image: url("../images/subscribe-background.jpg");
   background-color: #cccccc;
   background-position: top;
   background-size: 100% auto;
@@ -1412,7 +1412,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .view-cards {
-  background-image: url("../images/graphic/view-cards.svg");
+  background-image: url("../images/graphic/cards.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 44px;
@@ -1420,7 +1420,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .view-presentation {
-  background-image: url("../images/graphic/view-presentation.svg");
+  background-image: url("../images/graphic/presentation.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 44px;
@@ -1428,7 +1428,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .view-list {
-  background-image: url("../images/graphic/view-list.svg");
+  background-image: url("../images/graphic/list.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 44px;
